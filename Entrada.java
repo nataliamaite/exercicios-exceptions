@@ -7,7 +7,10 @@ public class Entrada {
             int num;
             Scanner scanner = new Scanner(System.in);
             System.out.println("Digite um número");
+            num = scanner.nextInt();
 
+        }catch (Exception e) {
+        System.out.println("Entrada inválida!");
         }
     }
 
